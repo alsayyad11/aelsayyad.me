@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed M Elsayyad — Product Manager</title>
+<meta name="description" content="Ahmed M Elsayyad — Product Manager. 50+ products shipped across SaaS, FinTech, HealthTech, Mobility & more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=Instrument+Sans:wght@300;400;500;600&family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="pgbar"></div>
+<button id="backTop" aria-label="Back to top">↑</button>
+
+<!-- ══ WELCOME POPUP ══ -->
+<div id="welcomeOverlay">
+  <div id="welcomePopup">
+    <button class="wp-close-x" id="closePopupX" aria-label="Close">✕</button>
+    <div class="wp-glow"></div>
+    <div class="wp-badge"><span data-i18n="popup_badge">Available for Projects</span></div>
+    <div class="wp-avatar">
+      <img src="images/me.png" alt="Ahmed M Elsayyad">
+      <div class="wp-pulse"></div>
+    </div>
+    <h2 class="wp-name">Ahmed M Elsayyad</h2>
+    <p class="wp-title" data-i18n="popup_title">Product Manager · 2+ Years · 50+ Products</p>
+    <p class="wp-msg" data-i18n="popup_msg">Got a product idea or looking for a PM who ships with purpose? Let's talk — I'd love to hear what you're building.</p>
+    <div class="wp-contacts">
+      <a class="wp-contact" href="https://wa.me/201016607696" target="_blank" rel="noopener">
+        <div class="wp-icon wpi-wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></div>
+        <div class="wp-contact-info">
+          <span class="wp-contact-label" data-i18n="whatsapp">WhatsApp</span>
+          <span class="wp-contact-val">+20 101 660 7696</span>
+        </div>
+      </a>
+      <a class="wp-contact" href="tel:+201016607696">
+        <div class="wp-icon wpi-ph"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></div>
+        <div class="wp-contact-info">
+          <span class="wp-contact-label" data-i18n="phone">Phone</span>
+          <span class="wp-contact-val">+20 101 660 7696</span>
+        </div>
+      </a>
+      <a class="wp-contact" href="https://www.linkedin.com/in/alsayyad11/" target="_blank" rel="noopener">
+        <div class="wp-icon wpi-li"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></div>
+        <div class="wp-contact-info">
+          <span class="wp-contact-label">LinkedIn</span>
+          <span class="wp-contact-val">alsayyad11</span>
+        </div>
+      </a>
+      <a class="wp-contact" href="/cdn-cgi/l/email-protection#16777e7b7372737a65776f6f777226262056717b777f7a3875797b">
+        <div class="wp-icon wpi-em"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></div>
+        <div class="wp-contact-info">
+          <span class="wp-contact-label" data-i18n="email">Email</span>
+          <span class="wp-contact-val"><span class="__cf_email__" data-cfemail="f89990959d9c9d948b998181999cc8c8ceb89f95999194d69b9795">[email&#160;protected]</span></span>
+        </div>
+      </a>
+    </div>
+    <div class="wp-actions">
+      <a class="wp-btn-follow" href="https://www.linkedin.com/in/alsayyad11/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        <span data-i18n="follow_me">Follow Me</span>
+      </a>
+      <button class="wp-btn-later" id="closePopup">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        <span data-i18n="contact_later">Contact Later</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- mobile menu -->
+<div id="mm">
+  <a href="#about" onclick="closeMM()" data-i18n="nav_about">About</a>
+  <a href="#services" onclick="closeMM()" data-i18n="nav_services">Services</a>
+  <a href="#projects" onclick="closeMM()" data-i18n="nav_work">Work</a>
+  <a href="#blog" onclick="closeMM()" data-i18n="nav_writing">Writing</a>
+  <a href="#contact" onclick="closeMM()" data-i18n="nav_contact">Contact</a>
+</div>
+
+<nav id="nav">
+  <div class="n-logo" data-totop>Ahmed<em>.</em></div>
+  <ul class="n-links">
+    <li><a href="#about" data-i18n="nav_about">About</a></li>
+    <li><a href="#services" data-i18n="nav_services">Services</a></li>
+    <li><a href="#projects" data-i18n="nav_work">Work</a></li>
+    <li><a href="#blog" data-i18n="nav_writing">Writing</a></li>
+    <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+  </ul>
+  <div class="n-r">
+    <button class="theme-toggle" id="themeBtn" title="Toggle theme">
+      <span class="theme-icon">☽</span>
+      <span class="theme-label" data-i18n="theme_dark">Dark</span>
+    </button>
+    <button class="lang-toggle" id="langBtn" title="Switch language">
+      <span class="lang-globe">🌐</span>
+      <span class="lang-label">AR</span>
+    </button>
+    <a href="#contact" class="btn-p" data-i18n="hire_me">Hire Me</a>
+    <button class="hbg" id="hbg" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="h-grid"></div><div class="h-glow"></div>
+  <div>
+    <div class="h-ey"><span class="h-line"></span><span data-i18n="hero_tag">Product Manager</span></div>
+    <h1><span data-i18n="hero_h1a">Building Products</span><br><em data-i18n="hero_h1b">People Love.</em></h1>
+    <p class="h-desc reveal" data-i18n="hero_desc">I'm <strong>Ahmed M Elsayyad</strong> — a product manager with <strong>2+ years</strong> of hands-on experience shipping over <strong>50 products</strong> across SaaS, FinTech, HealthTech, Mobility, and more.</p>
+    <div class="h-btns reveal d1">
+      <a href="#projects" class="btn-p lg" data-i18n="view_cases">View Case Studies →</a>
+      <a href="#contact" class="btn-s" data-i18n="lets_talk">Let's Talk</a>
+    </div>
+    <div class="h-stats reveal d2">
+      <div class="h-si"><div class="h-sn">50<sup>+</sup></div><div class="h-sl" data-i18n="stat_products">Products Shipped</div></div>
+      <div class="h-si"><div class="h-sn">2<sup>+</sup></div><div class="h-sl" data-i18n="stat_years">Years Experience</div></div>
+      <div class="h-si"><div class="h-sn">100<sup>k+</sup></div><div class="h-sl" data-i18n="stat_users">Users Impacted</div></div>
+    </div>
+  </div>
+  <div class="h-photo reveal-r">
+    <img src="images/me.png" alt="Ahmed M Elsayyad" loading="eager">
+    <div class="h-badge">
+      <div class="h-bt" data-i18n="badge_currently">Currently</div>
+      <div class="h-bv" data-i18n="badge_status">Open to <span>Work</span></div>
+    </div>
+  </div>
+</section>
+<div class="gd"></div>
+
+<div class="mwrap"><div class="mi-track">
+  <span class="mi a" data-i18n="mq1">Product Strategy</span><span class="md"></span>
+  <span class="mi" data-i18n="mq2">User Discovery</span><span class="md"></span>
+  <span class="mi a" data-i18n="mq3">Roadmapping</span><span class="md"></span>
+  <span class="mi" data-i18n="mq4">Agile Delivery</span><span class="md"></span>
+  <span class="mi a" data-i18n="mq5">Growth & Retention</span><span class="md"></span>
+  <span class="mi" data-i18n="mq6">Stakeholder Alignment</span><span class="md"></span>
+  <span class="mi a" data-i18n="mq7">Data-Driven Decisions</span><span class="md"></span>
+  <span class="mi" data-i18n="mq8">PRD Writing</span><span class="md"></span>
+  <span class="mi a" data-i18n="mq9">Business Analysis</span><span class="md"></span>
+  <span class="mi" data-i18n="mq10">Product Ownership</span><span class="md"></span>
+  <span class="mi a" data-i18n="mq11">0-to-1 Builds</span><span class="md"></span>
+  <span class="mi" data-i18n="mq12">Project Management</span><span class="md"></span>
+  <span class="mi a" data-i18n="mq1">Product Strategy</span><span class="md"></span>
+  <span class="mi" data-i18n="mq2">User Discovery</span><span class="md"></span>
+  <span class="mi a" data-i18n="mq3">Roadmapping</span><span class="md"></span>
+  <span class="mi" data-i18n="mq4">Agile Delivery</span><span class="md"></span>
+</div></div>
+<div class="gd"></div>
+
+<!-- ABOUT -->
+<section id="about" class="sec" style="background:var(--bg2)">
+  <div class="a-grid">
+    <div class="a-t">
+      <div class="ey reveal"><span data-i18n="about_tag">About Me</span></div>
+      <h2 class="st reveal d1" data-i18n="about_h2">Built on Curiosity.<br>Driven by Outcomes.</h2>
+      <div class="reveal d2">
+        <p data-i18n="about_p1">I'm <strong>Ahmed M Elsayyad</strong>, a Product Manager with <strong>2+ years of hands-on experience</strong> shipping over <strong>50 products</strong> across SaaS, FinTech, HealthTech, Mobility, E-commerce, and more.</p>
+        <p data-i18n="about_p2">I don't just manage backlogs — I chase root causes, write specs engineers trust, and obsess over the metrics that actually move the business.</p>
+        <p data-i18n="about_p3">Whether it's a <strong>0-to-1 product build</strong>, a large-scale platform at a consumer brand, or a B2B SaaS that needs better retention — I show up prepared to make hard calls.</p>
+      </div>
+      <div class="sk-l reveal d3" data-i18n="core_skills">Core Skills</div>
+      <div class="sk-r reveal d3">
+        <span class="sk">Product Strategy</span><span class="sk">User Research</span><span class="sk">Roadmapping</span>
+        <span class="sk">PRD Writing</span><span class="sk">Agile / Scrum</span><span class="sk">A/B Testing</span>
+        <span class="sk">SQL</span><span class="sk">Figma</span><span class="sk">Mixpanel</span>
+        <span class="sk">Amplitude</span><span class="sk">Jira</span><span class="sk">Notion</span>
+        <span class="sk">Business Analysis</span><span class="sk">Product Ownership</span>
+      </div>
+    </div>
+
+    <!-- Professional Summary Card -->
+    <div class="a-summary reveal-r">
+      <div class="as-photo-wrap">
+        <img src="images/me.png" alt="Ahmed M Elsayyad" class="as-photo">
+        <div class="as-online-dot"></div>
+      </div>
+      <div class="as-name">Ahmed M Elsayyad</div>
+      <div class="as-role" data-i18n="as_role">Mid-Level Product Manager</div>
+      <div class="as-divider"></div>
+      <p class="as-bio" data-i18n="as_bio">Results-driven Product Manager with 2+ years of experience turning ambiguous problems into shipped products that users love and businesses measure. I've led discovery, defined roadmaps, and delivered across SaaS, FinTech, HealthTech, Mobility, and E-commerce — writing PRDs engineers trust and making hard prioritization calls grounded in data. I operate at the intersection of strategy and execution: I don't hand off specs and disappear; I stay in the room until the metric moves.</p>
+      <div class="as-stats">
+        <div class="as-stat"><span class="as-sv">50+</span><span class="as-sl" data-i18n="as_s1">Products</span></div>
+        <div class="as-stat"><span class="as-sv">10+</span><span class="as-sl" data-i18n="as_s2">Industries</span></div>
+        <div class="as-stat"><span class="as-sv">100k+</span><span class="as-sl" data-i18n="as_s3">Users</span></div>
+      </div>
+      <div class="as-quote" data-i18n="as_quote">"Ship something real. Measure it honestly. Improve relentlessly."</div>
+    </div>
+  </div>
+</section>
+<div class="gd"></div>
+
+<!-- SKILLS -->
+<section id="skillbars" class="sec">
+  <div class="ey reveal"><span data-i18n="skills_tag">Expertise</span></div>
+  <h2 class="st reveal d1" data-i18n="skills_h2">Skills &amp; Proficiency</h2>
+  <p class="sl reveal d2" style="margin-top:8px" data-i18n="skills_sub">Real competencies measured against delivered products — not self-assessment alone.</p>
+  <div class="skill-domain-grid reveal d2">
+    <div class="skill-domain">
+      <div class="sd-label" data-i18n="sk_cat1">Product Management</div>
+      <div class="skc-row">
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk1">Product Strategy</span><span class="skc-lvl expert" data-i18n="lv_expert">Expert</span></div><div class="skc-desc" data-i18n="sk1d">Vision → roadmap → measurable outcomes</div></div>
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk2">User Discovery & Research</span><span class="skc-lvl expert" data-i18n="lv_expert">Expert</span></div><div class="skc-desc" data-i18n="sk2d">Interviews, JTBD, usability studies, synthesis</div></div>
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk3">Roadmapping & Prioritization</span><span class="skc-lvl expert" data-i18n="lv_expert">Expert</span></div><div class="skc-desc" data-i18n="sk3d">Outcome-based, RICE/MoSCoW, risk-sequenced</div></div>
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk4">Growth & Retention</span><span class="skc-lvl advanced" data-i18n="lv_advanced">Advanced</span></div><div class="skc-desc" data-i18n="sk4d">Activation funnels, churn analysis, A/B loops</div></div>
+      </div>
+    </div>
+    <div class="skill-domain">
+      <div class="sd-label" data-i18n="sk_cat2">Business & Delivery</div>
+      <div class="skc-row">
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk5">Business Analysis</span><span class="skc-lvl expert" data-i18n="lv_expert">Expert</span></div><div class="skc-desc" data-i18n="sk5d">Requirements elicitation, impact mapping, BA</div></div>
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk6">Stakeholder Management</span><span class="skc-lvl advanced" data-i18n="lv_advanced">Advanced</span></div><div class="skc-desc" data-i18n="sk6d">Cross-functional alignment & exec comms</div></div>
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk7">Agile / Scrum</span><span class="skc-lvl expert" data-i18n="lv_expert">Expert</span></div><div class="skc-desc" data-i18n="sk7d">Sprint planning, ceremonies, retrospectives</div></div>
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk8">PRD & Spec Writing</span><span class="skc-lvl expert" data-i18n="lv_expert">Expert</span></div><div class="skc-desc" data-i18n="sk8d">Specs engineering teams trust and reference</div></div>
+      </div>
+    </div>
+    <div class="skill-domain">
+      <div class="sd-label" data-i18n="sk_cat3">Technical & Analytical</div>
+      <div class="skc-row">
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk9">Data Analytics & SQL</span><span class="skc-lvl advanced" data-i18n="lv_advanced">Advanced</span></div><div class="skc-desc" data-i18n="sk9d">Custom queries, cohort and funnel analysis</div></div>
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk10">UX Collaboration (Figma)</span><span class="skc-lvl proficient" data-i18n="lv_proficient">Proficient</span></div><div class="skc-desc" data-i18n="sk10d">User flows, wireframes, design reviews</div></div>
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk11">Mixpanel / Amplitude</span><span class="skc-lvl advanced" data-i18n="lv_advanced">Advanced</span></div><div class="skc-desc" data-i18n="sk11d">Behavioral analytics, retention, north star</div></div>
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk12">A/B Testing</span><span class="skc-lvl advanced" data-i18n="lv_advanced">Advanced</span></div><div class="skc-desc" data-i18n="sk12d">Experiment design, significance, rollout</div></div>
+      </div>
+    </div>
+    <div class="skill-domain">
+      <div class="sd-label" data-i18n="sk_cat4">Frameworks & Methods</div>
+      <div class="skc-row">
+        <div class="skc"><div class="skc-top"><span class="skc-name">RICE / MoSCoW</span><span class="skc-lvl expert" data-i18n="lv_expert">Expert</span></div><div class="skc-desc" data-i18n="sk13d">Context-driven prioritization frameworks</div></div>
+        <div class="skc"><div class="skc-top"><span class="skc-name">JTBD</span><span class="skc-lvl expert" data-i18n="lv_expert">Expert</span></div><div class="skc-desc" data-i18n="sk14d">Outcome-focused discovery and framing</div></div>
+        <div class="skc"><div class="skc-top"><span class="skc-name">OKRs</span><span class="skc-lvl proficient" data-i18n="lv_proficient">Proficient</span></div><div class="skc-desc" data-i18n="sk15d">Quarterly planning, outcome-team alignment</div></div>
+        <div class="skc"><div class="skc-top"><span class="skc-name" data-i18n="sk16">Impact Mapping</span><span class="skc-lvl advanced" data-i18n="lv_advanced">Advanced</span></div><div class="skc-desc" data-i18n="sk16d">Connecting features to behaviors to outcomes</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="gd"></div>
+
+<!-- SERVICES -->
+<section id="services" class="sec" style="background:var(--bg2)">
+  <div class="sv-head">
+    <div>
+      <div class="ey reveal"><span data-i18n="svc_tag">Services</span></div>
+      <h2 class="st reveal d1" data-i18n="svc_h2">What I Bring<br>to the Table</h2>
+    </div>
+    <p class="sl reveal d2" data-i18n="svc_sub">Focused product management services to help teams build the right things, in the right order.</p>
+  </div>
+  <div class="sv-grid">
+    <div class="svc reveal"><div class="svc-n">01</div><div class="svc-t" data-i18n="svc1t">Product Strategy</div><div class="svc-d" data-i18n="svc1d">Vision definition, competitive analysis, opportunity sizing, and outcome-based roadmaps.</div><div class="svc-tg"><span data-i18n="svc1tag1">Vision</span><span data-i18n="svc1tag2">Roadmap</span><span data-i18n="svc1tag3">Competitive</span></div></div>
+    <div class="svc reveal d1"><div class="svc-n">02</div><div class="svc-t" data-i18n="svc2t">User Discovery</div><div class="svc-d" data-i18n="svc2d">Customer interviews, jobs-to-be-done mapping, usability studies, and synthesis frameworks.</div><div class="svc-tg"><span data-i18n="svc2tag1">Interviews</span><span>JTBD</span><span data-i18n="svc2tag3">Synthesis</span></div></div>
+    <div class="svc reveal d2"><div class="svc-n">03</div><div class="svc-t" data-i18n="svc3t">PRD &amp; Specs</div><div class="svc-d" data-i18n="svc3d">Requirements documentation that engineering teams actually read, reference, and trust.</div><div class="svc-tg"><span>PRD</span><span data-i18n="svc3tag2">User Stories</span><span>SRS</span></div></div>
+    <div class="svc reveal d3"><div class="svc-n">04</div><div class="svc-t" data-i18n="svc4t">Growth &amp; Retention</div><div class="svc-d" data-i18n="svc4d">Activation funnel optimization, churn analysis, engagement loops, and experiment design.</div><div class="svc-tg"><span data-i18n="svc4tag1">Activation</span><span>Retention</span><span>A/B Tests</span></div></div>
+    <div class="svc reveal d4"><div class="svc-n">05</div><div class="svc-t" data-i18n="svc5t">Business Analysis</div><div class="svc-d" data-i18n="svc5d">Requirements elicitation, process modeling, impact mapping, and stakeholder alignment.</div><div class="svc-tg"><span>BA</span><span data-i18n="svc5tag2">Modeling</span><span data-i18n="svc5tag3">Alignment</span></div></div>
+    <div class="svc reveal d5"><div class="svc-n">06</div><div class="svc-t" data-i18n="svc6t">0-to-1 Builds</div><div class="svc-d" data-i18n="svc6d">From napkin idea to launched product: market validation, MVP scoping, build-measure-learn loops.</div><div class="svc-tg"><span>MVP</span><span data-i18n="svc6tag2">Launch</span><span data-i18n="svc6tag3">Validation</span></div></div>
+  </div>
+</section>
+<div class="gd"></div>
+
+<!-- PROCESS -->
+<section id="process" class="sec">
+  <div class="ey reveal"><span data-i18n="proc_tag">How I Work</span></div>
+  <h2 class="st reveal d1" data-i18n="proc_h2">A Process Built for Outcomes</h2>
+  <p class="sl reveal d2" data-i18n="proc_sub">Structured, repeatable, and grounded in evidence — not just intuition.</p>
+  <div class="p-grid">
+    <div class="ps reveal"><div class="ps-n">01</div><div class="ps-t" data-i18n="proc1t">Discover</div><div class="ps-d" data-i18n="proc1d">User interviews, competitive audits, analytics deep-dives. No spec gets written until the problem is validated.</div></div>
+    <div class="ps reveal d1"><div class="ps-n">02</div><div class="ps-t" data-i18n="proc2t">Define</div><div class="ps-d" data-i18n="proc2d">Opportunity sizing, success metrics defined before design begins, prioritization using RICE or weighted scoring.</div></div>
+    <div class="ps reveal d2"><div class="ps-n">03</div><div class="ps-t" data-i18n="proc3t">Deliver</div><div class="ps-d" data-i18n="proc3d">Clear PRDs, sprint planning, daily standups, and a scope log that prevents feature creep.</div></div>
+    <div class="ps reveal d3"><div class="ps-n">04</div><div class="ps-t" data-i18n="proc4t">Measure</div><div class="ps-d" data-i18n="proc4d">Post-launch tracking against the metrics defined in step two. The product never stops improving.</div></div>
+  </div>
+</section>
+<div class="gd"></div>
+
+<!-- STATS -->
+<section id="stats">
+  <div class="st-g">
+    <div class="st-i reveal"><div class="st-n" data-target="50" data-suffix="+">50+</div><div class="st-l" data-i18n="stat_products">Products Shipped</div><div class="stat-note" data-i18n="stat1n">Across 10+ industries</div></div>
+    <div class="st-i reveal d1"><div class="st-n" data-target="100" data-suffix="k+">100k+</div><div class="st-l" data-i18n="stat_users">Users Impacted</div><div class="stat-note" data-i18n="stat2n">Measurable behavior change</div></div>
+    <div class="st-i reveal d2"><div class="st-n" data-target="92" data-suffix="%">92%</div><div class="st-l" data-i18n="stat3l">Avg Retention Rate</div><div class="stat-note" data-i18n="stat3n">Across cohorts tracked</div></div>
+    <div class="st-i reveal d3"><div class="st-n" data-target="56" data-suffix="+">56+</div><div class="st-l" data-i18n="stat4l">Case Studies</div><div class="stat-note" data-i18n="stat4n">Documented &amp; measurable</div></div>
+  </div>
+</section>
+<div class="gd"></div>
+
+<!-- PROJECTS -->
+<section id="projects" class="sec" style="background:var(--bg2)">
+  <div class="ey reveal"><span data-i18n="proj_tag">Case Studies</span></div>
+  <h2 class="st reveal d1" data-i18n="proj_h2">50+ Products.<br><em>Real Outcomes.</em></h2>
+  <p class="sl reveal d2" data-i18n="proj_sub">Filter by industry to explore detailed case studies — each with real metrics, discovery process, and PM decisions.</p>
+  <div class="proj-fils reveal d3">
+    <button class="pf active" onclick="filterProjects('all',this)" data-i18n="all">All</button>
+    <button class="pf" onclick="filterProjects('ai',this)">AI</button>
+    <button class="pf" onclick="filterProjects('saas',this)">SaaS</button>
+    <button class="pf" onclick="filterProjects('fintech',this)">FinTech</button>
+    <button class="pf" onclick="filterProjects('healthtech',this)">HealthTech</button>
+    <button class="pf" onclick="filterProjects('consumer',this)" data-i18n="consumer">Consumer</button>
+    <button class="pf" onclick="filterProjects('mobility',this)">Mobility</button>
+    <button class="pf" onclick="filterProjects('ecommerce',this)">E-commerce</button>
+    <button class="pf" onclick="filterProjects('marketplace',this)">Marketplace</button>
+    <button class="pf" onclick="filterProjects('analytics',this)">Analytics</button>
+    <button class="pf" onclick="filterProjects('edtech',this)">EdTech</button>
+  </div>
+  <div class="proj-grid" id="projGrid"></div>
+</section>
+
+<!-- Project Modal -->
+<div id="projModal" class="pmod" onclick="if(event.target===this)closeProjModal()">
+  <div class="pmod-box">
+    <button class="pmod-cl" onclick="closeProjModal()">✕</button>
+    <div id="pmodContent"></div>
+  </div>
+</div>
+<div class="gd"></div>
+
+<!-- TOOLS -->
+<section id="tools" class="sec">
+  <div class="t-head">
+    <div>
+      <div class="ey reveal"><span data-i18n="tools_tag">Toolkit</span></div>
+      <h2 class="st reveal d1" data-i18n="tools_h2">Tools I Use<br>Every Day</h2>
+    </div>
+    <p class="sl reveal d2" data-i18n="tools_sub">Chosen for efficiency and depth — the instruments that turn product thinking into shipped work.</p>
+  </div>
+  <div class="t-grid">
+    <div class="tool reveal"><div class="t-ico"><img src="https://cdn.simpleicons.org/jira/0052cc" alt="Jira" loading="lazy"></div><div class="t-n">Jira</div><div class="t-d" data-i18n="tool1d">Sprint planning, backlog management, velocity tracking.</div><span class="t-tag" data-i18n="tool1t">Delivery</span></div>
+    <div class="tool reveal d1"><div class="t-ico"><img src="https://cdn.simpleicons.org/notion/ffffff" alt="Notion" loading="lazy"></div><div class="t-n">Notion</div><div class="t-d" data-i18n="tool2d">PRDs, wikis, decision logs, and project documentation.</div><span class="t-tag" data-i18n="tool2t">Docs</span></div>
+    <div class="tool reveal d2"><div class="t-ico"><img src="https://cdn.simpleicons.org/figma/f24e1e" alt="Figma" loading="lazy"></div><div class="t-n">Figma</div><div class="t-d" data-i18n="tool3d">Wireframes, user flows, and design reviews.</div><span class="t-tag" data-i18n="tool3t">Design</span></div>
+    <div class="tool reveal d3"><div class="t-ico"><img src="https://cdn.simpleicons.org/mixpanel/7856ff" alt="Mixpanel" loading="lazy"></div><div class="t-n">Mixpanel</div><div class="t-d" data-i18n="tool4d">Behavioral analytics, funnel analysis, retention tracking.</div><span class="t-tag" data-i18n="tool4t">Analytics</span></div>
+    <div class="tool reveal"><div class="t-ico"><img src="https://cdn.simpleicons.org/postgresql/336791" alt="SQL" loading="lazy"></div><div class="t-n">SQL</div><div class="t-d" data-i18n="tool5d">Direct database queries for custom reports and analysis.</div><span class="t-tag" data-i18n="tool5t">Data</span></div>
+    <div class="tool reveal d1"><div class="t-ico"><img src="https://cdn.simpleicons.org/miro/050038" alt="Miro" loading="lazy"></div><div class="t-n">Miro</div><div class="t-d" data-i18n="tool6d">Discovery workshops, journey mapping, event storming.</div><span class="t-tag" data-i18n="tool6t">Discovery</span></div>
+    <div class="tool reveal d2"><div class="t-ico"><img src="https://cdn.simpleicons.org/confluence/172b4d" alt="Confluence" loading="lazy"></div><div class="t-n">Confluence</div><div class="t-d" data-i18n="tool7d">Technical specs, product wikis, and cross-team docs.</div><span class="t-tag" data-i18n="tool7t">Docs</span></div>
+    <div class="tool reveal d3"><div class="t-ico"><img src="https://cdn.simpleicons.org/amplitude/1768ac" alt="Amplitude" loading="lazy"></div><div class="t-n">Amplitude</div><div class="t-d" data-i18n="tool8d">Event-based analytics and north star metric monitoring.</div><span class="t-tag" data-i18n="tool8t">Analytics</span></div>
+  </div>
+</section>
+<div class="gd"></div>
+
+<!-- TESTIMONIALS -->
+<section id="testi" class="sec" style="background:var(--bg2)">
+  <div class="ey reveal"><span data-i18n="testi_tag">Testimonials</span></div>
+  <h2 class="st reveal d1" data-i18n="testi_h2">What People Say</h2>
+  <div class="tc-grid">
+    <div class="tc reveal"><div class="tc-q">"</div><p class="tc-t" data-i18n="test1">Ahmed has a rare ability to bring clarity to chaos. He came into our product org when we had no roadmap and no process, and within weeks had the whole team aligned and shipping with confidence.</p><div class="tc-a"><div class="tc-av">S</div><div><div class="tc-n">Sara K.</div><div class="tc-r" data-i18n="test1r">Head of Product, SaaS Startup</div></div></div></div>
+    <div class="tc reveal d1"><div class="tc-q">"</div><p class="tc-t" data-i18n="test2">Working with Ahmed was genuinely different. He never just took requirements — he challenged assumptions and consistently pushed us to focus on what actually mattered to users.</p><div class="tc-a"><div class="tc-av">M</div><div><div class="tc-n">Mohamed A.</div><div class="tc-r" data-i18n="test2r">CTO, E-commerce Platform</div></div></div></div>
+    <div class="tc reveal d2"><div class="tc-q">"</div><p class="tc-t" data-i18n="test3">Ahmed's discovery process is thorough and his PRDs are some of the clearest I've ever read. He made cross-team collaboration feel effortless and always kept the user perspective front and center.</p><div class="tc-a"><div class="tc-av">L</div><div><div class="tc-n">Layla R.</div><div class="tc-r" data-i18n="test3r">Lead Designer, Mobile App</div></div></div></div>
+  </div>
+</section>
+<div class="gd"></div>
+
+<!-- BLOG -->
+<section id="blog" class="sec">
+  <div style="margin-bottom:26px">
+    <div class="ey reveal"><span data-i18n="blog_tag">Writing</span></div>
+    <h2 class="st reveal d1" data-i18n="blog_h2">Thoughts &amp; Insights</h2>
+    <p class="sl reveal d2" style="margin-top:8px" data-i18n="blog_sub">In-depth essays on product management, business analysis, and AI — written for 2026 practitioners.</p>
+  </div>
+  <div class="b-fils reveal">
+    <button class="bfi active" data-cat="all" data-i18n="all">All</button>
+    <button class="bfi" data-cat="ai" data-i18n="blog_cat_ai">AI &amp; Product</button>
+    <button class="bfi" data-cat="strategy" data-i18n="blog_cat_strategy">Strategy</button>
+    <button class="bfi" data-cat="research" data-i18n="blog_cat_research">Research</button>
+    <button class="bfi" data-cat="business-analysis" data-i18n="blog_cat_ba">Business Analysis</button>
+    <button class="bfi" data-cat="product-ownership" data-i18n="blog_cat_po">Product Ownership</button>
+    <button class="bfi" data-cat="project-management" data-i18n="blog_cat_pm">Project Mgmt</button>
+    <button class="bfi" data-cat="prioritization" data-i18n="blog_cat_pri">Prioritization</button>
+  </div>
+  <div class="b-feat reveal" id="featuredArticle" onclick="openArt(0)">
+    <div class="bf-img"><img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=65&auto=format&fit=crop" alt="" loading="lazy"><div class="bf-ov"></div><div class="bf-bdg" data-i18n="featured">Featured</div></div>
+    <div class="bf-bd">
+      <div class="bf-cat" data-i18n="blog_cat_strategy">Strategy</div>
+      <div class="bf-t" data-i18n="feat_title">Why Most Roadmaps Are Just Wish Lists in Disguise</div>
+      <p class="bf-ex" data-i18n="feat_exc">A roadmap without outcome targets is a delivery plan masquerading as strategy. After 50+ products, here's what separates roadmaps teams believe in.</p>
+      <div class="bf-meta"><span class="bf-d">Mar 2026 · 9 min</span><span class="bf-l" data-i18n="read_article">Read Article →</span></div>
+    </div>
+  </div>
+  <div class="b-grid" id="blogGrid"></div>
+</section>
+
+<!-- Article Modal -->
+<div class="amod" id="artModal" onclick="artClick(event)">
+  <div class="amod-bd"></div>
+  <div class="amod-box" id="mBox">
+    <div id="artProgress"></div>
+    <button class="amod-cl" onclick="closeArt()">✕</button>
+    <div class="amod-hero" id="mHero" style="display:none"><img id="mImg" src="" alt=""><div class="amod-hov"></div></div>
+    <div class="amod-hd"><div class="amod-cat" id="mCat"></div><div class="amod-tit" id="mTit"></div><div class="amod-met" id="mMet"></div></div>
+    <div class="amod-con" id="mCon"></div>
+  </div>
+</div>
+<div class="gd"></div>
+
+<!-- FAQ -->
+<section id="faq" class="sec" style="background:var(--bg2)">
+  <div class="faq-l">
+    <div class="faq-s">
+      <div class="ey reveal"><span data-i18n="faq_tag">FAQ</span></div>
+      <h2 class="st reveal d1" data-i18n="faq_h2">Common<br>Questions</h2>
+      <p class="sl reveal d2" style="margin-top:12px" data-i18n="faq_sub">Still have questions? Reach out via email or LinkedIn.</p>
+    </div>
+    <div class="reveal d1">
+      <div class="fitem open"><button class="fbtn"><span data-i18n="faq1q">What types of products do you specialize in?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq1a">I've worked across B2C mobile apps, B2B SaaS platforms, e-commerce, fintech, healthtech, mobility, and marketplace models — with a strong focus on growth, retention, and 0-to-1 product builds.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq2q">Do you work as a consultant or full-time?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq2a">Both. I'm open to embedded consulting engagements, fractional PM roles, and full-time opportunities. Let's have an initial conversation and find the structure that makes the most sense.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq3q">How do you approach stakeholder alignment?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq3a">Through consistent communication, transparent roadmaps tied directly to business goals, and written decision logs that keep everyone informed. Alignment isn't a meeting — it's a system.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq4q">What's the difference between a PM and a Business Analyst?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq4a">BAs surface the "what" — they translate business needs into requirements. PMs own the "why" — they decide what to build and in what order. I bridge both, which means I write requirements that have strategic context, not just functional specs.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq5q">What makes your approach different?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq5a">I lead with evidence, not opinions. I invest in real discovery before committing to solutions, write PRDs that engineering teams find useful, and measure success by outcomes — not features shipped.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq6q">How do you handle disagreements with engineering teams?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq6a">I treat engineering concerns as product signals, not obstacles. If engineers push back on scope or feasibility, that's valuable information — it usually means the problem isn't well-defined enough. I invest in shared understanding before pushing for a decision, and I document trade-offs so everyone can see the reasoning, not just the outcome.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq7q">What does your discovery process look like in practice?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq7a">It starts with a problem statement that includes who is affected, how often, and what it costs them. Then 5–10 structured user interviews focused on behavior — not opinions. Then synthesis: patterns, root causes, and the riskiest assumptions. Nothing gets written into a PRD until the problem is validated. The whole cycle typically takes 1–2 weeks depending on access to users.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq8q">How do you prioritize when everything feels urgent?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq8a">I apply RICE or weighted scoring to separate urgency from importance — they're usually different. Then I align with leadership on the top business outcome for the quarter and map every "urgent" item against it. Items that don't move the needle on that outcome get deprioritized, regardless of who's asking. The framework makes the conversation about trade-offs, not about personalities.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq9q">Can you work in Arabic-language markets?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq9a">Yes — I'm a native Arabic speaker and have led products specifically designed for MENA audiences, including RTL layouts, Arabic UX writing, and localized business logic. I understand the cultural nuances that affect user behavior in the region, not just the language.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq10q">How do you measure a product's success after launch?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq10a">Success metrics are defined before a single line of code is written — not after launch. I tie every feature to a specific metric, a direction, and a timeframe. Post-launch, I track those metrics for at least 30 days, run cohort analysis to understand if the behavior change is sticky, and document learnings regardless of outcome. A feature that didn't move the metric is still a success if it generates a validated learning.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq11q">What's your experience with AI products?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq11a">I've shipped four AI-powered products including a no-code chatbot builder, an AI content generation platform, a candidate screening tool, and an NLP support platform. My approach to AI features includes defining accuracy thresholds upfront, specifying human fallback paths in every PRD, instrumenting model confidence scores, and planning retraining cycles into the roadmap — not treating AI as a "ship and forget" feature.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq12q">How do you write a PRD that engineers actually use?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq12a">A good PRD answers four things per requirement: who's doing it and under what conditions, exactly what behavior happens, how you'll know it worked (testable acceptance criteria), and what happens when it fails. I also include the business rationale — which tells engineers how to make good judgment calls when they hit an edge case I didn't anticipate. PRDs without a "why" generate Slack threads; PRDs with one generate shipped features.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq13q">Do you have experience with 0-to-1 product builds?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq13a">Yes — several. 0-to-1 requires a completely different mindset than scaling: there's no data, no "previous version," and every assumption is a hypothesis. I run lean discovery sprints before any development starts, define the riskiest assumptions explicitly, and sequence validation so we're learning cheaply before we build expensively. The goal isn't a perfect MVP — it's the minimum build that answers the most dangerous question.</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq14q">How do you manage scope when timelines are fixed?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq14a">With a written scope contract agreed to before the first sprint — covering what's in, what's explicitly out, and the decision criteria for adding new items. Every mid-project request gets evaluated against that contract. If something gets added, something of equivalent effort comes out. This reframes scope conversations from "can we add this?" to "what are you willing to remove?"</div></div>
+      <div class="fitem"><button class="fbtn"><span data-i18n="faq15q">What industries have you worked in?</span><span class="fic">+</span></button><div class="fbody" data-i18n="faq15a">SaaS, FinTech, HealthTech, Mobility, E-commerce, Marketplace, EdTech, GovTech, PropTech, HR Tech, LegalTech, and InsurTech — primarily across the MENA region. The breadth means I pattern-match quickly across domains and bring cross-industry thinking to product problems that often feel unique but rarely are.</div></div>
+    </div>
+  </div>
+</section>
+<div class="gd"></div>
+
+<!-- CONTACT -->
+<section id="contact" class="sec">
+  <div class="c-glow"></div>
+  <div class="c-in">
+    <div class="c-pre reveal" data-i18n="contact_pre">Available for New Projects</div>
+    <h2 class="c-tit reveal d1" data-i18n="contact_h2">Let's Build<br><em>Something Great.</em></h2>
+    <p class="c-ld reveal d2" data-i18n="contact_desc">If you're building a product that matters and need a PM who ships with purpose — let's have an honest conversation about whether we're the right fit.</p>
+    <div class="c-acts reveal d3">
+      <a href="/cdn-cgi/l/email-protection#2e4f46434b4a4b425d4f57574f4a1e1e186e49434f4742004d4143" class="btn-p lg" data-i18n="send_email">Send an Email →</a>
+      <a href="https://www.linkedin.com/in/alsayyad11/" target="_blank" rel="noopener" class="btn-s" data-i18n="linkedin_profile">LinkedIn Profile</a>
+    </div>
+    <div class="c-info reveal d4">
+      <div class="ci"><div class="ci-l" data-i18n="phone">Phone</div><div class="ci-v">+20 101 660 7696</div></div>
+      <div class="ci"><div class="ci-l">LinkedIn</div><div class="ci-v"><a href="https://www.linkedin.com/in/alsayyad11/" target="_blank" rel="noopener" class="ci-btn-li">alsayyad11</a></div></div>
+      <div class="ci"><div class="ci-l" data-i18n="location">Location</div><div class="ci-v" data-i18n="cairo">Cairo, Egypt</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="f-brand" data-totop style="cursor:pointer">Ahmed M<em>.</em></div>
+  <div class="f-copy" data-i18n="footer_copy">© 2026 Ahmed M Elsayyad — Product Manager</div>
+  <nav class="f-links">
+    <a href="#about" data-i18n="nav_about">About</a>
+    <a href="#projects" data-i18n="nav_work">Wo    <a href="#projects" data-i18n="nav_work">Work</a>
+    <a href="#blog" data-i18n="nav_writing">Writing</a>
+    <a href="#contact" data-i18n="nav_contact">Contact</a>
+  </nav>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
